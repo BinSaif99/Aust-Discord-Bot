@@ -17,8 +17,8 @@ class MyClient extends Client {
             .then(user => {
             var _a;
             (_a = client.user) === null || _a === void 0 ? void 0 : _a.setActivity({
-                name: 'Binnash',
-                type: 'CREATED BY'
+                name: 'Created By Binnash',
+                type: ''
             });
         })
             .catch(console.error);
