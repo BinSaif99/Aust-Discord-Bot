@@ -18,7 +18,7 @@ class MyClient extends Client {
             var _a;
             (_a = client.user) === null || _a === void 0 ? void 0 : _a.setActivity({
                 name: 'Created By Binnash',
-                type: ''
+                
             });
         })
             .catch(console.error);
